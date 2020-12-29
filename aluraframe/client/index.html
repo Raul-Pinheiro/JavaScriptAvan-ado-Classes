@@ -38,7 +38,7 @@
         <button class="btn btn-primary text-center" type="button">
             Importar Negociações
         </button>
-        <button class="btn btn-primary text-center" type="button">
+        <button class="btn btn-primary text-center" onclick="controller.apagaNegociacao()" type="button">
             Apagar
         </button>
     </div>
@@ -58,6 +58,7 @@
 <script src="js/app/views/NegociacaoView.js"></script>
 <script src="js/app/models/Mensagem.js"></script>
 <script src="js/app/views/MensagemView.js"></script>
+<script src="js/app/services/ProxyFactory.js"></script>
 
 <script>
     let controller = new NegociacaoController();
